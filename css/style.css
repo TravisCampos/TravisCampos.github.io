@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+
+/* Padding */
+/*
+padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px
+*/
+
+.container {
+  display: flex;
+  flex-flow: row nowrap; /* Align on the same line */
+  margin-left: auto;
+  margin-right: auto;
+  /*align-items: center;*/
+  justify-content: center; /* Equal margin between the child elements */
+}
+
+.trial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.0rem 3.5rem 0.0rem 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -195,6 +222,10 @@ hr.light-100 {
     font-size: 2.5em;
     padding: 1.2rem;
   }
+
+  .test {
+    font-size: 97%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -211,7 +242,7 @@ hr.light-100 {
   }
 
   .carousel-caption .btn {
-    font-size: 90%;
+    font-size: 95%;
     padding: 4px 8px;
   }
 
@@ -227,6 +258,10 @@ hr.light-100 {
   .social a {
     font-size: 2em;
     padding: 0.9rem;
+  }
+
+  .test {
+    font-size: 95%;
   }
 }
 
