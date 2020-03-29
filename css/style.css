@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
 
 /* Padding */
@@ -10,6 +10,65 @@ bottom padding is 75px
 left padding is 100px
 */
 
+.text-box {
+  padding: 1.5rem 3.0rem 0.0rem 3.0rem;
+  font-size: 115% ;
+}
+
+.element {
+  display: inline-block;
+}
+
+.row-check {
+  display: inline-block;
+}
+
+.grey {
+  background-color: #696969;
+}
+
+.text {
+  width: 60%;
+  color: #298ed1;
+  background-color: #298ed1;
+  padding: 0.08rem 0.0rem 0.0rem 0.0rem;
+
+}
+
+.new-welcome {
+  display: flex;
+  justify-content:center; 
+  padding: 5.0rem 0.0rem 0.0rem 0.0rem;
+  background-color: #e9efef;
+}
+
+.download-text {
+  padding: 3.0rem 0.0rem 3.0rem 0.0rem;
+  text-align: center;
+}
+
+.check {
+  display: inline-block;
+}
+
+.desktop {
+  padding: 1.5rem 1.0rem 0.0rem 1.0rem;
+  display: inline-block;
+}
+
+.download {
+  padding: 0.0rem 1.0rem 0.0rem 1.0rem
+}
+
+.new-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.white {
+  background-color: white;
+}
+
 .container {
   display: flex;
   flex-flow: row nowrap; /* Align on the same line */
@@ -17,6 +76,14 @@ left padding is 100px
   margin-right: auto;
   /*align-items: center;*/
   justify-content: center; /* Equal margin between the child elements */
+}
+
+.trial2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.0rem 2.0rem 0.0rem 2.0rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .trial {
@@ -30,21 +97,46 @@ left padding is 100px
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
-  color: #222;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
 }
 
 .navbar {
+  /*text-transform: uppercase;*/
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.01rem;
   padding: 0.8rem;
+  background: rgba(0,0,0,0.6)!important;
 }
 
+.navbar-brand img {
+  height: 2.0rem;
+}
 .navbar-nav li {
-  padding-right: 20px;
+  padding-right: 0.7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color:white;
+  padding-top: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #298ed1;
 }
 
 .nav-link {
   font-size: 1.1em !important;
 }
+
+/*
+.home-inner {
+  background-image: url(img/computers.png);
+}
+*/
 
 .carousel-inner img {
   width: 100%;
@@ -70,13 +162,13 @@ html, body {
 }
 
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #0e76a8;
+  border: 1px solid #0e76a8;
 }
 
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #298ed1;
+  border: 1px solid #298ed1;
 }
 
 
@@ -161,8 +253,8 @@ footer {
 hr.light {
   border-top: 1px solid #d5d5d5;
   width: 75%;
-  margin-top: 0.8rem;
-  margin-bottom: 1rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
 }
 
 footer a {
@@ -173,8 +265,8 @@ hr.light-100 {
   color: #ffffff;
   border-top: 1px solid #d5d5d5;
   width: 100%;
-  margin-top: 0.8rem;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 
@@ -223,9 +315,11 @@ hr.light-100 {
     padding: 1.2rem;
   }
 
+  /*
   .test {
-    font-size: 97%;
+    font-size: 99%;
   }
+  */
 }
 
 @media (max-width: 576px) {
@@ -260,9 +354,11 @@ hr.light-100 {
     padding: 0.9rem;
   }
 
+  /*
   .test {
-    font-size: 95%;
+    font-size: 98%;
   }
+  */
 }
 
 
