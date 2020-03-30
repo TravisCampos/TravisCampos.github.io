@@ -11,10 +11,8 @@ left padding is 100px
 */
 
 .new-text {
-  width: 30%;
-  color: #298ed1;
-  background-color: #298ed1;
-  padding: 0.08rem 0.0rem 0.0rem 0.0rem;
+  width: 50%;
+  padding: 0.05rem 0.0rem 0.0rem 0.0rem;
 }
 
 .text-box {
@@ -45,6 +43,13 @@ left padding is 100px
   display: flex;
   justify-content:center; 
   padding: 5.0rem 0.0rem 0.0rem 0.0rem;
+  background-color: #e9efef;
+}
+
+.new-welcome-2 {
+  display: flex;
+  justify-content:center; 
+  padding: 0.0rem 0.0rem 0.0rem 0.0rem;
   background-color: #e9efef;
 }
 
@@ -149,8 +154,8 @@ html, body {
 }
 
 #slides.carousel {
-  width: 925px;
-  height: 500px;
+  width: 900px;
+  height: 490px;
   margin: auto;
 }
 
@@ -232,9 +237,10 @@ html, body {
   color: #2163af;
 }
 
-.fa-code, .fa-bold, .fa-css3 {
+.fa-code, .fa-database, .fa-mobile {
   font-size: 4em;
   margin: 1rem;
+  color: #2163af;
 }
 
 .fun {
@@ -314,6 +320,11 @@ hr.light-100 {
 
 }
 
+.social a {
+  font-size: 4em;
+  padding: 2rem;
+}
+
 @media (max-width: 992px) {
   .social a {
     font-size: 4em;
@@ -362,11 +373,12 @@ hr.light-100 {
     font-size: 200%;
   }
 
+  /*
   .social a {
     font-size: 2.5em;
     padding: 1.2rem;
   }
-
+*/
   /*
   .test {
     font-size: 99%;
@@ -411,11 +423,12 @@ hr.light-100 {
     font-size: 160%;
   }
 
+  /*
   .social a {
     font-size: 2em;
     padding: 0.9rem;
   }
-
+*/
   /*
   .test {
     font-size: 98%;
