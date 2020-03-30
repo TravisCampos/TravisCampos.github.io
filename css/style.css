@@ -10,6 +10,13 @@ bottom padding is 75px
 left padding is 100px
 */
 
+.new-text {
+  width: 30%;
+  color: #298ed1;
+  background-color: #298ed1;
+  padding: 0.08rem 0.0rem 0.0rem 0.0rem;
+}
+
 .text-box {
   padding: 1.5rem 3.0rem 0.0rem 3.0rem;
   font-size: 115% ;
@@ -32,7 +39,6 @@ left padding is 100px
   color: #298ed1;
   background-color: #298ed1;
   padding: 0.08rem 0.0rem 0.0rem 0.0rem;
-
 }
 
 .new-welcome {
@@ -138,6 +144,25 @@ html, body {
 }
 */
 
+.header-file {
+  text-align: center;
+}
+
+#slides.carousel {
+  width: 925px;
+  height: 500px;
+  margin: auto;
+}
+
+/*
+#slides2.carousel {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+}
+*/
+
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
@@ -162,8 +187,8 @@ html, body {
 }
 
 .btn-primary {
-  background-color: #0e76a8;
-  border: 1px solid #0e76a8;
+  background-color: #185a79;
+  border: 1px solid #0a4864;
 }
 
 .btn-primary:hover {
@@ -279,14 +304,41 @@ hr.light-100 {
 
 /*---Media Queries --*/
 
+@media (max-width: 925px) {
+  #slides.carousel {
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
 @media (max-width: 992px) {
   .social a {
     font-size: 4em;
     padding: 2rem;
   }
+
+/*
+  #slides.carousel {
+    width: 750px;
+    height: 405.4px;
+    margin: auto;
+  }
+*/
 }
 
 @media (max-width: 768px) {
+
+/*
+#slides.carousel {
+  width: 600px;
+  height: 324.3px;
+  margin: auto;
+}
+*/
+
   .carousel-caption {
     top: 45%;
   }
@@ -323,6 +375,15 @@ hr.light-100 {
 }
 
 @media (max-width: 576px) {
+
+/*
+  #slides.carousel {
+    width: 450px;
+    height: 243.5px;
+    margin: auto;
+  } 
+*/
+
   .carousel-caption {
     top: 40%;
   }
@@ -340,10 +401,11 @@ hr.light-100 {
     padding: 4px 8px;
   }
 
+  /*
   .carousel-indicators {
     display: none;
-
   }
+  */
 
   .display-4 {
     font-size: 160%;
