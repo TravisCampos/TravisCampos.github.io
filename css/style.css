@@ -381,9 +381,8 @@ hr.light-100 {
   margin: auto;
 }
 */
-
   .carousel-caption {
-    top: 45%;
+    top: 50%;
   }
   
   .carousel-caption h1 {
@@ -429,7 +428,7 @@ hr.light-100 {
 */
 
   .carousel-caption {
-    top: 40%;
+    top: 50%;
   }
   
   .carousel-caption h1 {
