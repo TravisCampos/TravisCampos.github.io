@@ -14,6 +14,11 @@ left padding is 100px
   font-size: 250%;
 }*/
 
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
+
 .lead-2 {
   font-size: 150%;
 }
@@ -228,9 +233,11 @@ html, body {
 }
 
 .carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: -500px;
+  position: relative; 
+  left: 50%;
+  transform: translateX(-50%);
+
 }
 
 .carousel-caption h1 {
@@ -380,6 +387,13 @@ hr.light-100 {
     transform: translate(-50%, -50%);
   }
 
+  #carousel-new {
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 }
 
 .social a {
@@ -412,7 +426,7 @@ hr.light-100 {
 }
 */
   .carousel-caption {
-    top: 50%;
+    top: -500px;
   }
   
   .carousel-caption h1 {
@@ -474,19 +488,19 @@ hr.light-100 {
 */
 
   .carousel-caption {
-    top: 50%;
+    top: -500px;
   }
   
   .carousel-caption h1 {
-    font-size: 200%;
+    font-size: 230%;
   }
   
   .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 130%;
   }
 
   .carousel-caption .btn {
-    font-size: 95%;
+    font-size: 105%;
     padding: 4px 8px;
   }
 
