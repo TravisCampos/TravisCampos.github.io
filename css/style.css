@@ -75,6 +75,11 @@ left padding is 100px
   background-color: #e9efef;
 }
 
+.phones {
+  width: 80%; 
+  height: 80%;
+}
+
 .download-text {
   padding: 3.0rem 0.0rem 3.0rem 0.0rem;
   text-align: center;
@@ -469,6 +474,11 @@ hr.light-100 {
     font-size: 1.0rem;
     line-height: .5;
     border-radius: .2rem;
+  }
+
+  .phones {
+    width: 65%; 
+    height: 65%;
   }
 
   .test {
