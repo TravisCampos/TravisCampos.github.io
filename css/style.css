@@ -9,6 +9,11 @@ right padding is 50px
 bottom padding is 75px
 left padding is 100px
 */
+
+/*.lead {
+  font-size: 250%;
+}*/
+
 .lead-2 {
   font-size: 150%;
 }
@@ -452,6 +457,8 @@ hr.light-100 {
     font-size: 95%;
     padding: 4px 8px;
   }
+
+  
 
   /*
   .carousel-indicators {
