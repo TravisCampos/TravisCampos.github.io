@@ -70,6 +70,7 @@ left padding is 100px
 .new-welcome-2 {
   display: flex;
   justify-content:center; 
+  margin-top: -235px;
   padding: 0.0rem 0.0rem 0.0rem 0.0rem;
   background-color: #e9efef;
 }
