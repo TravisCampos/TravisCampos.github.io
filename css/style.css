@@ -490,14 +490,7 @@ hr.light-100 {
   .carousel-caption {
     top: -500px;
   }
-  
-  .carousel-caption h1 {
-    font-size: 230%;
-  }
-  
-  .carousel-caption h3 {
-    font-size: 130%;
-  }
+
 
   .carousel-caption .btn {
     font-size: 105%;
