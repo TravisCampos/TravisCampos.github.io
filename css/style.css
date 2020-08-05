@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+.btn-store {
+  color: #777777;
+  min-width: 254px;
+  padding: 12px 20px !important;
+  border-color: #dddddd !important;
+}
 
+.btn-store:focus, 
+.btn-store:hover {
+  color: #ffffff !important;
+  background-color: #168eea;
+  border-color: #168eea !important;
+}
+
+.btn-store .btn-label, 
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+}
+
+.btn-store .btn-caption {
+  font-size: 24px;
+}
 /* Padding */
 /*
 padding: 25px 50px 75px 100px;
@@ -155,6 +178,14 @@ left padding is 100px
   font-family: 'Poppins', sans-serif;
 }
 
+.trial5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.0rem 0.0rem 0.0rem 2.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
 
 .trial {
   display: flex;
@@ -274,6 +305,15 @@ html, body {
   border: 1px solid #298ed1;
 }
 
+.btn-xlarge {
+  padding: 14px 24px;
+  font-size: 22px;
+  line-height: normal;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}
+
 
 .jumbotron {
   padding: 1rem;
@@ -388,7 +428,15 @@ hr.light-100 {
   padding-top: 18px;
 }
 
-
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
 
 /*---Media Queries --*/
 
@@ -447,14 +495,14 @@ hr.light-100 {
   }
   
   .carousel-caption h3 {
-    font-size: 140%;
+    font-size: 155%;
     font-weight: 400;
     padding-bottom: 0.2rem;
   }
 
   .carousel-caption .btn {
-    font-size: 95%;
-    padding: 8px 14px;
+    font-size: 110%;
+    padding: 10px 16px;
   }
 
   .display-4 {
