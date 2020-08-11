@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 
+.privacy {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+  line-height: 1.3;
+  text-align: justify;
+  margin-bottom: 150px;
+}
+
 .btn-store {
   color: #777777;
   min-width: 254px;
