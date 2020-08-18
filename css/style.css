@@ -454,7 +454,9 @@ hr.light-100 {
 
 @media (max-width: 925px) {
   #slides.carousel {
-
+    margin-top: -210px;
+    margin-bottom: 210px;
+    margin-right: 10px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
