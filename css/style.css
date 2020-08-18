@@ -451,7 +451,7 @@ hr.light-100 {
 }
 
 .padding-desktop {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 
 
@@ -460,17 +460,14 @@ hr.light-100 {
 
 @media (max-width: 925px) {
   #slides.carousel {
-    margin-top: -25%;
-    margin-bottom: 25%;
+
     margin-right: 10px;
     left: 50%;
-    top: 50%;
+    top: 26%;
     transform: translate(-50%, -50%);
   }
 
-  .padding-desktop {
-    padding-top: 170px;
-  }
+
 
   #carousel-new {
 
@@ -510,9 +507,6 @@ hr.light-100 {
   margin: auto;
 }
 */
-.padding-desktop {
-  padding-top: 200px;
-}
 
   .carousel-caption {
     top: -500px;
@@ -559,9 +553,6 @@ hr.light-100 {
     border-radius: .2rem;
   }
 
-  .padding-desktop {
-    padding-top: 250px;
-  }
 
 
   .phones {
