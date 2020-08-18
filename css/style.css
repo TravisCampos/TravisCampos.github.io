@@ -463,10 +463,13 @@ hr.light-100 {
 
     margin-right: 10px;
     left: 50%;
-    top: 26%;
+    top: 40%;
     transform: translate(-50%, -50%);
   }
 
+  .padding-desktop {
+    padding-top: 200px;
+  }
 
 
   #carousel-new {
