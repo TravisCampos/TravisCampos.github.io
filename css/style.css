@@ -450,15 +450,24 @@ hr.light-100 {
   margin: auto;
 }
 
+.padding-desktop {
+  padding-top: 0px;
+}
+
+
+
 /*---Media Queries --*/
 
 @media (max-width: 925px) {
   #slides.carousel {
 
+    margin-right: 10px;
     left: 50%;
-    top: 50%;
+    top: 250px;
     transform: translate(-50%, -50%);
   }
+
+
 
   #carousel-new {
 
@@ -498,6 +507,7 @@ hr.light-100 {
   margin: auto;
 }
 */
+
   .carousel-caption {
     top: -500px;
   }
@@ -542,6 +552,8 @@ hr.light-100 {
     line-height: .5;
     border-radius: .2rem;
   }
+
+
 
   .phones {
     width: 80%; 
