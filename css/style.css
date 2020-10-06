@@ -650,7 +650,20 @@ figure {
     padding: 1rem;
 }
 
+.carousel-indicators li {
+  display: inline-block;
+  width: 36px;
+  height: 6px;
+  margin: 8px;
 
+  background-color: darkgray;
+}
+.carousel-indicators .active {
+  width: 36px;
+  height: 6px;
+  margin: 8px;
+  background-color: grey;
+}
 
 
 
