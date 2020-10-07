@@ -14,6 +14,8 @@ Markdown Designer is a full stack Web Application for creating and storing high-
 Markdown Designer is built using the MEAN Stack, which includes MongoDB (v4.2.5), Express (v4.16.1), Angular (v9.1.1), and Node.js (v12.16.2).
 </p>
 
+<a href="https://github.com/TravisCampos/Markdown-Designer">Markdown Designer GitHub</a>
+
 ## __Mobile Applications__: <img src="img/Readme/Crypto.svg" width="43" height="43">
 <p>
 Crypto Visual is a mobile application that allows users to analyze the daily price movements and trading volumes of Cryptocurrency Markets and Exchanges, and offers and offers insight into the price movements of currency pairs and precious metals.
@@ -23,6 +25,8 @@ Crypto Visual is a mobile application that allows users to analyze the daily pri
 Crypto Visual is built using React Native, a popular mobile application framework that creates hybrid applications for both iOS and Android.
 </p>
 
+<a href="https://github.com/TravisCampos/Crypto-Visual">Crypto Visual GitHub</a>
+
 ## __Desktop Applications__: <img src="img/Readme/Stock.svg" width="40" height="40">
 <p>
   The Stock Market Technical Analysis Calculator is a Desktop Application for evaluating the Technical Rating of a specific security on the major US Stock Exchanges.
@@ -30,3 +34,5 @@ Crypto Visual is built using React Native, a popular mobile application framewor
 <p>
   The Technical Analysis Calculator is completely dynamic, using real-time data and real-time technical indicators to determine whether the User should Buy, Hold, or Sell an equity stake in a specific security. 
 </p>
+
+<a href="https://github.com/TravisCampos/Stock-Market-Calculator">Stock Market Calculator GitHub</a>
