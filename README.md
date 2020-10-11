@@ -27,7 +27,7 @@ Crypto Visual is built using React Native, a popular mobile application framewor
 
 <a href="https://github.com/TravisCampos/Crypto-Visual">Crypto Visual GitHub</a>
 
-## __Desktop Applications__: <img src="img/Readme/Stock.svg" width="40" height="40">
+## __Desktop Applications__: <img src="img/Readme/Stock.svg" width="38" height="38">
 <p>
   The Stock Market Technical Analysis Calculator is a Desktop Application for evaluating the Technical Rating of a specific security on the major US Stock Exchanges.
 </p>
