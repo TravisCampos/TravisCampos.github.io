@@ -6,6 +6,10 @@
   The GitHub Pages Website also contains contact information like UCLA Email Address along with a link to individual Resume.
 </p>
 
+<p>
+  <a href="https://traviscampos.github.io/">GitHub Pages Website</a>
+</p>
+
 ## __Web Applications__: <img src="img/Readme/Markdown.svg" width="40" height="40">
 <p>
 Markdown Designer is a full stack Web Application for creating and storing high-quality styled documents in the cloud with support for several different Markup Languages.
